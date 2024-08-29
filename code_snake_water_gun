@@ -9,6 +9,8 @@ def check(comp,user):
         return -1
     if(comp==2 and user==0):
         return -1
+    if(comp==2 and user==1):
+        return -1
     return 1
 comp=random.randint(0,2)
 user=int(input("Enter Snake For '0' and for Water '1' and for Gun '2' :" ))
